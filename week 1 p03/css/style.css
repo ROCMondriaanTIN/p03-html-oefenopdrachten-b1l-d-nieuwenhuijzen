@@ -1,0 +1,36 @@
+:root {
+    --orange: orange;
+}
+
+*{
+    margin: 0;
+    gap: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    border: 3px solid var(--orange);
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    background-color: var(--orange);
+    color: white;
+}
+
+button {
+    background-color: var(--orange);
+    color: white;
+    margin-top: auto;
+}
+
+.jush-img {
+    width: 100px;
+}
